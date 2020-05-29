@@ -10,10 +10,10 @@ import java.util.Map;
 public class DbHandler {
 
 	//Remote database connection
-	private static final String HOST = "k2fqe1if4c7uowsh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-	private static final String USERNAME = "upr652qobm6n7i4e";
-	private static final String PASSWORD = "w3532ju2ud60ec5s";
-	private static final String DATABASE = "tz7dvrrthemxnfkm";
+	private static final String HOST = "localhost";
+	private static final String USERNAME = "root";
+	private static final String PASSWORD = "";
+	private static final String DATABASE = "timecapsule";
 	private static final String DB_URL = "jdbc:mysql://"+HOST+":3306/"+DATABASE;
 	private static Connection conn=null;
 	
